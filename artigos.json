@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "titulo": "Primeira Notícia do Blog",
+        "data": "7 de outubro de 2025",
+        "resumo": "Este é o resumo da primeira notícia. Clique em 'Ler Mais' para ver o conteúdo completo.",
+        "conteudo": "Este é o conteúdo completo da primeira notícia. Aqui você pode escrever sobre qualquer coisa de forma mais detalhada e envolvente, incluindo parágrafos e informações adicionais."
+    },
+    {
+        "id": 2,
+        "titulo": "Segunda Notícia Relevante",
+        "data": "6 de outubro de 2025",
+        "resumo": "A segunda notícia traz informações importantes sobre um assunto de interesse geral. O design agora realça a leitura.",
+        "conteudo": "A segunda notícia completa traz informações importantes sobre um assunto de interesse geral. O novo design realça a experiência de leitura, com tipografia aprimorada e layout responsivo."
+    },
+    {
+        "id": 3,
+        "titulo": "Terceira Notícia do Dia",
+        "data": "5 de outubro de 2025",
+        "resumo": "Confira os detalhes sobre os últimos acontecimentos que impactaram a sociedade.",
+        "conteudo": "A terceira notícia completa detalha os últimos acontecimentos que impactaram a sociedade. Com o novo layout, as notícias ficam mais organizadas e atraentes, facilitando a navegação do usuário."
+    }
+]

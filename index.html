@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <h1>Zona-Notícias</h1>
+            <nav>
+                <a href="#home" class="nav-link active" data-section="home">Início</a>
+                <a href="#sobre" class="nav-link" data-section="sobre">Sobre</a>
+                <a href="#contato" class="nav-link" data-section="contato">Contato</a>
+            </nav>
+            <button id="theme-toggle" aria-label="Alternar modo escuro"></button>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Seção de Notícias (Home) -->
+        <section id="home" class="section active">
+            <div id="noticias-container" class="grid-container"></div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="section">
+            <h2>Sobre Nós</h2>
+            <p>Este é um blog de notícias moderno e minimalista, criado com HTML, CSS e JavaScript puro. Nosso objetivo é fornecer notícias de forma rápida e elegante.</p>
+            <p>Nossa equipe é apaixonada por desenvolvimento web e gosta de criar soluções elegantes e eficientes. Acreditamos que a simplicidade é a chave para uma ótima experiência do usuário.</p>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato" class="section">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma sugestão, crítica ou deseja entrar em contato? Preencha o formulário abaixo ou nos envie um e-mail para **contato@meublog.com**.</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Modal e Footer permanecem os mesmos -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <button id="close-modal" class="close-button">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Blog de Notícias Moderno. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
