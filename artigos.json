@@ -1,23 +1,44 @@
 [
     {
         "id": 1,
-        "titulo": "Primeira Notícia do Blog",
-        "data": "7 de outubro de 2025",
-        "resumo": "Este é o resumo da primeira notícia. Clique em 'Ler Mais' para ver o conteúdo completo.",
-        "conteudo": "Este é o conteúdo completo da primeira notícia. Aqui você pode escrever sobre qualquer coisa de forma mais detalhada e envolvente, incluindo parágrafos e informações adicionais."
+        "titulo": "Brasil conquista medalha histórica no Mundial de Ginástica",
+        "data": "12 de outubro de 2024",
+        "resumo": "Rebeca Andrade faz história e conquista sua terceira medalha em competições internacionais, colocando o Brasil no mapa mundial da ginástica artística.",
+        "conteudo": "A ginasta brasileira Rebeca Andrade conquistou mais uma medalha de ouro no Campeonato Mundial de Ginástica Artística, realizado em Antuérpia, na Bélgica. Esta é sua terceira medalha em competições mundiais, consolidando sua posição como uma das principais atletas do esporte no cenário internacional. A conquista representa não apenas um feito pessoal extraordinário, mas também um marco histórico para a ginástica brasileira, que vem ganhando reconhecimento mundial através do talento e dedicação de seus atletas."
     },
     {
         "id": 2,
-        "titulo": "Segunda Notícia Relevante",
-        "data": "6 de outubro de 2025",
-        "resumo": "A segunda notícia traz informações importantes sobre um assunto de interesse geral. O design agora realça a leitura.",
-        "conteudo": "A segunda notícia completa traz informações importantes sobre um assunto de interesse geral. O novo design realça a experiência de leitura, com tipografia aprimorada e layout responsivo."
+        "titulo": "Economia brasileira mostra sinais de recuperação no terceiro trimestre",
+        "data": "11 de outubro de 2024",
+        "resumo": "PIB registra crescimento de 1,4% no terceiro trimestre de 2024, segundo dados do IBGE, indicando recuperação econômica após período desafiador.",
+        "conteudo": "O Instituto Brasileiro de Geografia e Estatística (IBGE) divulgou os dados do Produto Interno Bruto (PIB) do terceiro trimestre de 2024, mostrando um crescimento de 1,4% em relação ao trimestre anterior. O resultado supera as expectativas dos analistas econômicos, que previam alta de 1,1%. Os setores que mais contribuíram para esse crescimento foram serviços (1,8%), indústria (1,1%) e agropecuária (0,9%). Especialistas destacam que a recuperação está sendo impulsionada pelo aumento do consumo das famílias e pelos investimentos públicos em infraestrutura."
     },
     {
         "id": 3,
-        "titulo": "Terceira Notícia do Dia",
-        "data": "5 de outubro de 2025",
-        "resumo": "Confira os detalhes sobre os últimos acontecimentos que impactaram a sociedade.",
-        "conteudo": "A terceira notícia completa detalha os últimos acontecimentos que impactaram a sociedade. Com o novo layout, as notícias ficam mais organizadas e atraentes, facilitando a navegação do usuário."
+        "titulo": "Amazônia registra menor índice de desmatamento em 5 anos",
+        "data": "10 de outubro de 2024",
+        "resumo": "Dados do INPE mostram redução de 33% no desmatamento da Amazônia em comparação ao mesmo período do ano anterior, marcando avanço na preservação ambiental.",
+        "conteudo": "O Instituto Nacional de Pesquisas Espaciais (INPE) divulgou dados animadores sobre o desmatamento na Amazônia. Entre agosto de 2023 e julho de 2024, a região perdeu 6.288 km² de floresta, uma redução de 33% em relação ao período anterior. Este é o menor índice registrado nos últimos cinco anos, resultado direto das políticas de fiscalização intensificada e das operações de combate aos crimes ambientais. O ministro do Meio Ambiente destacou que o resultado demonstra o compromisso do Brasil com a preservação da maior floresta tropical do mundo e o cumprimento das metas ambientais internacionais."
+    },
+    {
+        "id": 4,
+        "titulo": "São Paulo inaugura nova linha do metrô conectando zona sul",
+        "data": "9 de outubro de 2024",
+        "resumo": "A Linha 17-Ouro do Metrô de São Paulo foi inaugurada oficialmente, beneficiando milhões de paulistanos com novas opções de mobilidade urbana.",
+        "conteudo": "A cidade de São Paulo ganhou uma nova opção de transporte público com a inauguração da Linha 17-Ouro do metrô, que conecta a região do aeroporto de Congonhas ao centro expandido da cidade. A nova linha, que utiliza tecnologia de monotrilho, possui 17 estações e percorre 17,7 quilômetros, beneficiando diretamente cerca de 250 mil passageiros por dia. O projeto, que levou 6 anos para ser concluído, representa um investimento de R$ 4,2 bilhões e promete reduzir significativamente o tempo de deslocamento entre a zona sul e o centro da capital, melhorando a qualidade de vida dos usuários do transporte público."
+    },
+    {
+        "id": 5,
+        "titulo": "Pesquisadores brasileiros desenvolvem vacina contra dengue mais eficaz",
+        "data": "8 de outubro de 2024",
+        "resumo": "Instituto Butantan anuncia conclusão de testes da nova vacina contra dengue com 89% de eficácia, representando avanço significativo na saúde pública.",
+        "conteudo": "Pesquisadores do Instituto Butantan, em parceria com universidades brasileiras, concluíram com sucesso os testes da fase 3 de uma nova vacina contra a dengue. Os resultados mostram uma eficácia de 89% na prevenção da doença, superior às vacinas atualmente disponíveis. A nova fórmula, desenvolvida integralmente no Brasil, mostrou-se eficaz contra os quatro sorotipos do vírus da dengue e apresentou efeitos colaterais mínimos durante os testes clínicos. O Ministério da Saúde já sinalizou interesse em incorporar a vacina ao Sistema Único de Saúde (SUS), o que representaria uma importante ferramenta no combate à dengue, que afeta milhões de brasileiros anualmente."
+    },
+    {
+        "id": 6,
+        "titulo": "Festival de Cinema de Gramado premia produções nacionais",
+        "data": "7 de outubro de 2024",
+        "resumo": "52ª edição do Festival de Cinema de Gramado celebra o cinema brasileiro com premiação de filmes que retratam a diversidade cultural do país.",
+        "conteudo": "O 52º Festival de Cinema de Gramado chegou ao fim premiando produções que destacam a riqueza e diversidade do cinema nacional. O filme 'Sobre a Terra', dirigido por uma jovem cineasta brasileira, conquistou o Kikito de Ouro na categoria melhor longa-metragem brasileiro. A produção, que retrata a vida no sertão nordestino, foi elogiada pela crítica especializada por sua abordagem sensível e autêntica. O festival, considerado um dos mais importantes da América Latina, reuniu mais de 100 mil pessoas em Gramado durante uma semana, consolidando a cidade gaúcha como importante centro de difusão cultural e cinematográfica do país."
     }
 ]
