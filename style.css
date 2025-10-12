@@ -242,3 +242,165 @@ body.dark-mode #theme-toggle {
 .submit-btn:hover {
     background-color: #2980b9;
 }
+
+/* Ad Container Styles */
+.ad-container {
+    margin: 20px 0;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--card-background);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px var(--card-shadow);
+}
+
+.ad-top {
+    margin: 0 0 30px 0;
+    padding: 15px;
+}
+
+.ad-mid {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.ad-bottom {
+    margin: 30px 0 0 0;
+    padding: 15px;
+}
+
+/* Sidebar for larger screens */
+.sidebar-ad {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 160px;
+    z-index: 100;
+}
+
+/* Container layout optimization for ads */
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+/* Ensure ads are responsive */
+.adsbygoogle {
+    display: block;
+}
+
+/* News grid optimization for ad insertion */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    position: relative;
+}
+
+/* Mobile responsiveness for ads */
+@media (max-width: 768px) {
+    .sidebar-ad {
+        position: static;
+        right: auto;
+        top: auto;
+        transform: none;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .ad-container {
+        margin: 15px 0;
+        padding: 8px;
+    }
+    
+    .container {
+        padding: 0 15px;
+        margin: 15px auto;
+    }
+    
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ad-container {
+        margin: 10px 0;
+        padding: 5px;
+    }
+    
+    .ad-top, .ad-mid, .ad-bottom {
+        padding: 10px;
+    }
+}
+
+/* High DPI displays optimization */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .ad-container {
+        background-color: var(--card-background);
+    }
+}
+
+/* In-feed ad styles */
+.in-feed-ad {
+    grid-column: 1 / -1;
+    margin: 30px 0;
+    background: linear-gradient(135deg, var(--card-background) 0%, rgba(52, 152, 219, 0.1) 100%);
+    border: 1px solid rgba(52, 152, 219, 0.2);
+}
+
+/* Modal ad styles */
+.modal-ad {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(52, 152, 219, 0.05);
+    border-left: 3px solid var(--accent-color);
+}
+
+/* Ad loading states */
+.ad-container.ad-loading {
+    background: linear-gradient(90deg, var(--card-background) 0%, rgba(52, 152, 219, 0.1) 50%, var(--card-background) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+/* Improve readability around ads */
+.ad-container + .noticia,
+.noticia + .ad-container {
+    margin-top: 30px;
+}
+
+/* Sticky sidebar optimization */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+        padding-right: 200px; /* Make space for sidebar */
+    }
+    
+    .sidebar-ad {
+        width: 180px;
+        right: 10px;
+    }
+}
+
+/* Print media - hide ads */
+@media print {
+    .ad-container,
+    .sidebar-ad {
+        display: none !important;
+    }
+}
+
+/* Focus and accessibility */
+.ad-container:focus-within {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
