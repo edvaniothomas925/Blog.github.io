@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalBody = document.getElementById('modal-body');
     const closeModalBtn = document.getElementById('close-modal');
     const navLinks = document.querySelectorAll('.nav-link');
+    const footerLinks = document.querySelectorAll('.footer-link');
     const sections = document.querySelectorAll('.section');
 
     // Função para carregar as notícias (mantida como antes)
@@ -84,4 +85,32 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById(targetSectionId).classList.add('active');
         });
     });
+
+    // Gerenciamento dos links do footer
+    footerLinks.forEach(link => {
+        link.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            // Remove a classe 'active' de todos os links de navegação e seções
+            navLinks.forEach(l => l.classList.remove('active'));
+            sections.forEach(s => s.classList.remove('active'));
+
+            // Encontra e ativa o link de navegação correspondente
+            const targetSectionId = link.dataset.section;
+            const correspondingNavLink = document.querySelector(`.nav-link[data-section="${targetSectionId}"]`);
+            if (correspondingNavLink) {
+                correspondingNavLink.classList.add('active');
+            }
+            
+            // Ativa a seção correspondente
+            document.getElementById(targetSectionId).classList.add('active');
+        });
+    });
+
+    // Initialize ads
+    try {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+        console.log('AdSense não carregou ainda');
+    }
 });
