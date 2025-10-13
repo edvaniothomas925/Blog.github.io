@@ -12,7 +12,7 @@ I'm a passionate developer who loves building innovative solutions and exploring
 - ...and more!
 
 ## 🌟 Featured Project
-Check out my [Blog.github.io](https://github.com/edvaniothomas925/Blog.github.io)—a personal blogging platform built with modern web technologies.
+Check out my [Blog.github.io](https://github.com/edvaniothomas925/ZonaNoticia.github.io)—a personal blogging platform built with modern web technologies.
 
 ## 📈 GitHub Stats
 ![Edvaniothomas925's GitHub stats](https://github-readme-stats.vercel.app/api?username=edvaniothomas925&show_icons=true&theme=radical)
